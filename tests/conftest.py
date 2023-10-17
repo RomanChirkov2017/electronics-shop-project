@@ -1,8 +1,8 @@
 import pytest
 
-from src.item import Item
+from src.keyboard import Keyboard
 
 
 @pytest.fixture
-def item():
-    return Item("Смартфон", 10000.0, 20)
+def keyboard():
+    return Keyboard('Dark Project KD87A', 9600, 5)
